@@ -1,0 +1,62 @@
+/*
+ C!$C0^211: Yes finally i do it: my own utils.css
+ It commonly maps styling-properties to classes.
+
+ Example:
+ .blink = the text content of an element will blink
+ .blink_ = the text content of an element will blink with raising the priority
+ */
+
+/* Text-alignments in tables */
+.cb {text-align:center;vertical-align:bottom;}
+.cb_ {text-align:center !important;vertical-align:bottom !important;}
+.cm {text-align:center;vertical-align:middle;}
+.cm_ {text-align:center !important;vertical-align:middle !important;}
+.ct {text-align:center;vertical-align:top;}
+.ct_ {text-align:center !important;vertical-align:top !important;}
+.lb {text-align:left;vertical-align:bottom;}
+.lb_ {text-align:left !important;vertical-align:bottom !important;}
+.lm {text-align:left;vertical-align:middle;}
+.lm_ {text-align:left !important;vertical-align:middle !important;}
+.lt {text-align:left;vertical-align:top;}
+.lt_ {text-align:left !important;vertical-align:top !important;}
+.rb {text-align:right;vertical-align:bottom;}
+.rb_ {text-align:right !important;vertical-align:bottom !important;}
+.rm {text-align:right;vertical-align:middle;}
+.rm_ {text-align:right !important;vertical-align:middle !important;}
+.rt {text-align:right;vertical-align:top;}
+.rt_ {text-align:right !important;vertical-align:top !important;}
+
+/* Universal absmiddle emulation to have a workaround for align="absmiddle" */
+.absmiddle {vertical-align:middle;margin-bottom:0.25em;}
+.absmiddle_ {vertical-align:middle !important;margin-bottom:0.25em !important;}
+
+/* Text-formatting */
+.blink {text-decoration:blink;}
+.blink_ {text-decoration:blink !important;}
+.bold {font-weight:bold;}
+.bold_ {font-weight:bold !important;}
+.italic {font-style:italic;}
+.italic_ {font-style:italic !important;}
+.larger {font-size:larger;}
+.larger_ {font-size:larger !important;}
+.overline {text-decoration:overline;}
+.overline_ {text-decoration:overline !important;}
+.smaller {font-size:smaller;}
+.smaller_ {font-size:smaller !important;}
+.strike {text-decoration:line-through;}
+.strike_ {text-decoration:line-through !important;}
+.underline {text-decoration:underline;}
+.underline_ {text-decoration:underline !important;}
+
+/* Floatings */
+.clear {clear:both;}
+.clear_ {clear:both !important;}
+.lclear {clear:left;}
+.lclear_ {clear:left !important;}
+.lfloat {float:left;}
+.lfloat_ {float:left !important;}
+.rclear {clear:right;}
+.rclear_ {clear:right !important;}
+.rfloat {float:right;}
+.rfloat_ {float:right !important;}
